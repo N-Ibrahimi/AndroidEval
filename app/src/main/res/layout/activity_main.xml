@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Tous ce que tu as besoin :)"
+        android:textAlignment="center"
+        android:textColor="#325C7E"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/TVA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="goToTvaC"
+        android:padding="10dp"
+        android:text="Calculer TVA" />
+
+    <Button
+        android:id="@+id/devinette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="goTodevinette"
+        android:padding="10dp"
+        android:text="Jeu Devinette" />
+
+    <Button
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="goToColorChooser"
+        android:padding="10dp"
+        android:text="color" />
+
+    <Button
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="goToMeteo"
+        android:padding="10dp"
+        android:text="Météo" />
+</LinearLayout>
